@@ -1,0 +1,100 @@
+Code for win
+
+Q1)Write a C program to find maximum between two numbers.
+
+#include<stdio.h>
+int main()
+{
+    int a,b;
+    printf("Enter two digits to check which one is greater ");
+    scanf("%d %d",&a,&b);
+    if(a>b){
+        printf("Digit a is greater than b %d",a);
+    }
+    else
+    {
+        printf("Digit b is greater than a %d",b);
+    }
+    return 0;
+}
+
+Q2)Write a C program to check whether a number is negative, positive or zero.
+
+#include<stdio.h>
+int main()
+{
+    int a;
+    printf("Enter a number to check if it's positive negative or zero");
+    scanf("%d",&a);
+    if(a>0)
+    {
+        printf("Number is positive ");
+    }
+    if(a<0)
+    {
+        printf("Number is Negative");
+    }
+    if(a==0)
+    {
+        printf("Number is a 0");
+    }
+    return 0;
+}
+
+Q3)Write a C program to check whether a character is alphabet or not.
+
+
+#include<stdio.h>
+int main()
+{
+    char ch;
+    printf("To check entered character is a alphabet or not");
+    scanf("%c",&ch);
+    if(ch>='a' && (ch<='z'))
+    {
+        printf("Entered character is a alphabet");
+    }
+    else 
+    {
+        printf("Entered character is not a alphabet");
+    }
+    return 0;
+}
+
+Q4)Write a C program to input any character and check whether it is alphabet, digit or special character.
+
+#include<stdio.h>
+int main()
+{
+    char a;
+    printf("Enter a character to check whether it is alphabet or digit ");
+    scanf("%c", &a);
+    if(a>='a'&& a<='z')
+    {
+    printf("Entered charatcer is a alphabet\n");
+    }
+    else 
+    {
+        printf("Entered Character is a digit");
+    }
+    return 0;
+}
+
+Q5)Write a C program to check whether a character is uppercase or lowercase alphabet.
+
+#include<stdio.h>
+int main()
+{
+    char a;
+    printf("Enter a character to check  whether it is a uppercase or lowercase alphabet ");
+    scanf("%c",&a);
+    if(a>='a' && a<='z')
+    {
+        printf("Entered character is a lowercase alphabet");
+    }
+    if(a>='A' && a<='Z')
+    {
+        printf("Entered character is a uppercase alphabet");
+    }
+    return 0;
+}

@@ -1,0 +1,325 @@
+Q1) Voter id
+
+#include<stdio.h>
+int main()
+{
+    int age;
+    printf("Enter the age of the Voter ");
+    scanf("%d",&age);
+    
+    if(age>=18)
+    {
+        printf("You are eligible for voting");
+        
+    }
+    else
+    {
+        printf("You are not eligible");
+    }
+    return 0;
+}
+    
+
+Q2)Value is greater than 10
+
+#include<stdio.h>
+int main()
+{
+    int num;
+    printf("Enter the number");
+    scanf("%d",&num);
+    if(num>10)
+    {
+     printf("The value is greater than 10");   
+    }
+    else
+    {
+        printf("The value is not greater than 10");
+    }
+    return 0;
+}
+
+Q3)Number 50 greater or not greater
+
+#include<stdio.h>
+int main()
+{
+    int num;
+    printf("Enter the number");
+    scanf("%d",&num);
+    
+    if(num>50)
+    {
+        printf("number is greater than 50");
+    }
+    else
+    {
+        printf("number is not greater than 50");
+    }
+    
+    return 0;
+}
+
+Q4)Number check 100 gretaer or lesser
+
+#include<stdio.h>
+int main()
+{
+    int num;
+    printf("Enter the number");
+    scanf("%d",&num);
+    
+    if(num>50)
+    {
+        printf("number is greater than 100");
+    }
+    else
+    {
+        printf("number is not greater than 100");
+    }
+    
+    return 0;
+}
+
+Q5)The number is even or odd
+#include<stdio.h>
+int main()
+{
+    int num;
+    printf("Enter the number to check if it's even or odd ");
+    scanf("%d",&num);
+    if(num%2==0)
+    {
+        printf("The number is even");
+    }
+    else{
+        printf("The number is odd");
+    }
+    return 0;
+}
+
+Q6)To check number is divisible by 5 or not
+
+#include<stdio.h>
+int main()
+{
+    int num;
+    printf("Enter the number to check if it's divisible by 5");
+    scanf("%d",&num);
+    if(num%5==0)
+    {
+        printf("The number is divisible by 5");
+    }
+    else
+    {
+        printf("The number is not divisible by 5");
+    }
+    return 0;
+}
+
+Q7)if we put character a it should give apple
+#include<stdio.h>
+int main()
+{
+    char alpha;
+    printf("Enter the character");
+    scanf("%c",&alpha);
+    if(alpha=='a')
+    {
+        printf("apple");
+    }
+    else
+    {
+        printf("Not apple");
+    }
+    return 0;
+}
+
+Q8)check if the character is a vowel or consonant
+
+#include<stdio.h>
+int main()
+{
+    char alpha;
+    printf("Enter the alphabet");
+    scanf("%c",&alpha);
+    if (alpha=='a' || alpha=='e' || alpha=='i' || alpha=='o' || alpha=='u')
+    {
+        printf("Character is a vowel");
+    }
+    else
+    {
+    printf("Character is consonant");    
+    }
+    return 0;
+}
+
+Q9)user input addition 
+
+#include<stdio.h>
+int main()
+{
+    char alpha;
+    printf("Enter a for addition");
+    scanf("%c",&alpha);
+    if(alpha=='a')
+    {
+        int a,b;
+    printf("Enter the value of a and b");
+    scanf("%d %d",&a,&b);
+    int c=a+b;
+    printf("addition of two number is %d",c);
+    }
+    else 
+    {
+        printf("You put wrong character for addition");
+    }
+    
+    
+    return 0;
+}
+
+10) Subtraction
+#include<stdio.h>
+int main()
+{
+    char alpha;
+    printf("Enter s for subtraction");
+    scanf("%c",&alpha);
+    if(alpha=='s')
+    {
+        int a,b;
+    printf("Enter the value of a and b");
+    scanf("%d %d",&a,&b);
+    int c=a-b;
+    printf("subtraction of two number is %d",c);
+    }
+    else 
+    {
+        printf("You put wrong character for subtraction");
+    }
+    
+    
+    return 0;
+}
+
+11) Multiplication
+
+#include<stdio.h>
+int main()
+{
+    char alpha;
+    printf("Enter m for multiplication");
+    scanf("%c",&alpha);
+    if(alpha=='m')
+    {
+        int a,b;
+    printf("Enter the value of a and b");
+    scanf("%d %d",&a,&b);
+    int c=a*b;
+    printf("multiplication of two number is %d",c);
+    }
+    else 
+    {
+        printf("You put wrong character for multiplication");
+    }
+    
+    
+    return 0;
+}
+12) Division
+
+#include<stdio.h>
+int main()
+{
+    char alpha;
+    printf("Enter d for division");
+    scanf("%c",&alpha);
+    if(alpha=='d')
+    {
+        int a,b;
+    printf("Enter the value of a and b");
+    scanf("%d %d",&a,&b);
+    int c=a/b;
+    printf("Divison of two number is %d",c);
+    }
+    else 
+    {
+        printf("You put wrong character for division");
+    }
+    
+    
+    return 0;
+}
+
+13) Modular
+
+#include<stdio.h>
+int main()
+{
+    char alpha;
+    printf("Enter i for modular");
+    scanf("%c",&alpha);
+    if(alpha=='i')
+    {
+        int a,b;
+    printf("Enter the value of a and b");
+    scanf("%d %d",&a,&b);
+    int c=a%b;
+    printf("modular of two number is %d",c);
+    }
+    else 
+    {
+        printf("You put wrong character for modular");
+    }
+    
+    
+    return 0;
+}
+
+14) User input number check 5 and 11 both divide
+
+#include<stdio.h>
+int  main()
+{
+    int num;
+    printf("Put number to check if divisible by 5 and 11");
+    scanf("%d",&num);
+    if(num%5==0 && num%11==0)
+    {
+        printf("The number is divisible by 5 and 11");
+    }
+    else
+    {
+        printf("The number is not divisible by 5 and 11");
+    }
+return 0;
+    
+}
+
+15)Swap
+#include<stdio.h>
+int main()
+{
+    char alpha;
+    printf("Enter the character w for swap");
+    scanf("%c",&alpha);
+    if(alpha =='w'){
+    int a,b,c;
+     printf("Enter the value of a: ");
+    scanf("%d", &a);
+     printf("Enter the value of b: ");
+    scanf("%d", &b);
+     
+     c=a;
+     a=b;
+     b=c;
+     
+     printf("swap value of a:%d ",a);
+     printf("swap value of b:%d ",b);
+    }
+    else {
+        printf("Entered character is wrong");
+    }
+    return 0;
+}

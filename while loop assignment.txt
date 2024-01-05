@@ -1,0 +1,340 @@
+Q1) Reverse number
+#include<stdio.h>
+int
+main ()
+{
+  int a = 156541;
+  int rem, sum = 0;
+  while (a>0)
+    {
+      rem = a % 10;
+      sum = sum * 10 + rem;
+      a = a / 10;
+    }
+  printf ("%d", sum);
+  return 0;
+}
+
+Q2)Pallidrone number
+#include<stdio.h>
+int main()
+{
+    int a=12321;
+    int rem,sum=0;
+    int temp=a;
+    while(a>0)
+    {
+        rem=a%10;
+        sum=sum*10+rem;
+        a=a/10;
+    }
+    /*printf("%d",temp);*/
+    if(temp==sum)
+    {
+        printf("Number is Pallindrome");
+    }
+    else
+    {
+        printf("Not pallindrom");
+    }
+    return 0;
+}
+
+Q3)Armstrong 
+
+#include<stdio.h>
+int main()
+{
+    int a=153;
+    int rem,sum=0;
+    int temp=a;
+    while(a>0)
+    {
+        rem=a%10;
+        sum=sum+rem*rem*rem;
+        a=a/10;
+    }
+    /*printf("%d",temp);*/
+    if(temp==sum)
+    {
+        printf("Number is armstrong");
+    }
+    else
+    {
+        printf("Not armstrong");
+    }
+    return 0;
+}
+Q4)
+
+#include<stdio.h>
+int
+main ()
+{
+  char alpha;
+  printf
+    ("Enter a character\n r for number reverse\n p for pallidrome\n a for armstrong\n e for even number\n g gor gender check\n f for five number max\n m for marksheet\n b for bill\n o for month\n");
+  scanf ("%c", &alpha);
+  if (alpha == 'r')
+    {
+      int num;
+      int rem, sum = 0;
+      printf ("Enter number for reverse");
+      scanf ("%d", &num);
+      while (num > 0)
+	{
+	  rem = num % 10;
+	  sum = sum * 10 + rem;
+	  num = num / 10;
+	}
+      printf ("%d", sum);
+    }
+  else if (alpha == 'p')
+    {
+      int num;
+      int rem, sum = 0;
+      int temp = num;
+      printf ("Enter a number for pallidrome");
+      scanf ("%d", &num);
+      while (num > 0)
+	{
+	  rem = num % 10;
+	  sum = sum * 10 + rem;
+	  num = num / 10;
+	}
+      if (temp == num)
+	{
+	  printf ("Number is a pallidrome");
+	}
+      else
+	{
+	  printf ("Number is not a pallidrome");
+	}
+
+    }
+
+  else if (alpha == 'a')
+    {
+      int num;
+      int rem, sum = 0;
+      int temp = num;
+      printf ("Enter a character for armstrong");
+      scanf ("%d", &temp);
+      while (num > 0)
+	{
+	  rem = num % 10;
+	  sum = sum + rem * rem * rem;
+	  num = num / 10;
+	}
+      if (temp == sum)
+	{
+	  printf ("Number is armstrong");
+	}
+      else
+	{
+	  printf ("Number is not armstrong");
+	}
+    }
+
+  else if (alpha == 'e')
+    {
+      int num;
+      printf ("Enter a number to check for even");
+      scanf ("%d", &num);
+      if (num % 2 == 0)
+	{
+	  printf ("Number is even");
+	}
+      else
+	{
+	  printf ("Number is not even");
+	}
+
+    }
+
+  else if (alpha == 'g')
+    {
+      char a;
+      printf ("Enter m for Male and f for Female");
+      scanf (" %c", &a);
+      if (a == 'm')
+	{
+	  printf ("Male");
+	}
+      else if (a == 'f')
+	{
+	  printf ("Female");
+	}
+    }
+
+  else if (alpha == 'f')
+    {
+      int a, b, c, d, e;
+      printf ("Enter a");
+      scanf ("%d", &a);
+      printf ("Enter b");
+      scanf ("%d", &b);
+      printf ("Enter c");
+      scanf ("%d", &c);
+      printf ("Enter d");
+      scanf ("%d", &d);
+      printf ("Enter e");
+      scanf ("%d", &e);
+      if (a > b && a > c && a > d && a > e)
+	{
+	  printf ("a is greatest");
+	}
+      else if (b > a && b > c && b > d && b > e)
+	{
+	  printf ("b is greatest");
+	}
+      else if (c > a && c > b && c > d && c > e)
+	{
+	  printf ("c is greatest");
+	}
+      else if (d > a && d > b && d > c && d > e)
+	{
+	  printf ("d is greatest");
+	}
+      else if (e > a && e > b && e > c && e > d)
+	{
+	  printf ("e is greatest");
+	}
+    }
+
+  else if (alpha == 'm')
+    {
+      int m, p, c, e, h;
+      printf ("Enter maths marks");
+      scanf ("%d", &m);
+      printf ("Enter Physics marks");
+      scanf ("%d", &p);
+      printf ("Enter Chemistry marks");
+      scanf ("%d", &c);
+      printf ("Enter English marks");
+      scanf ("%d", &e);
+      printf ("Enter Hindi marks");
+      scanf ("%d", &h);
+      int result = m + p + c + e + h;
+      printf ("Total marks obtained%d\n", result);
+      float percentage = (float) result / 500.0 * 100;
+      printf ("Total percentage obtained%f", percentage);
+    }
+
+  else if (alpha == 'b')
+    {
+      int unit, pu;
+      printf ("Enter unit");
+      scanf ("%d", &unit);
+      printf ("Enter per unit price");
+      scanf ("%d", &pu);
+      int tb = unit * pu;
+      printf ("Total bill%d\n", tb);
+      if (unit >= 10)
+	{
+	  float tbd = (float) tb - (tb * 5 / 100);
+	  printf ("Total bill after discount%f", tbd);
+	}
+
+
+    }
+
+  else if (alpha == 'o')
+    {
+      int a;
+      printf ("Enter a digit for month");
+      scanf ("%d", &a);
+      if (a == 1)
+	{
+	  printf ("January");
+	}
+
+      else if (a == 2)
+	{
+	  printf ("Feburary");
+	}
+
+      else if (a == 3)
+	{
+	  printf ("March");
+	}
+
+      else if (a == 4)
+	{
+	  printf ("April");
+	}
+
+      else if (a == 5)
+	{
+	  printf ("May");
+	}
+
+      else if (a == 6)
+	{
+	  printf ("June");
+	}
+
+      else if (a == 7)
+	{
+	  printf ("July");
+	}
+
+      else if (a == 8)
+	{
+	  printf ("August");
+	}
+
+      else if (a == 9)
+	{
+	  printf ("September");
+	}
+
+      else if (a == 10)
+	{
+	  printf ("October");
+	}
+
+      else if (a == 11)
+	{
+	  printf ("November");
+	}
+
+      else if (a == 12)
+	{
+	  printf ("December");
+	}
+
+
+
+      else
+	{
+	  printf ("Invalid");
+	}
+
+    }
+
+  else
+	{
+	  printf ("Invalid");
+	}
+
+  return 0;
+}
+
+Q5)Table
+#include<stdio.h>
+int main()
+{
+    int b;
+    printf("Enter value of number table which you want");
+    scanf("%d",&b);
+    int a=1;
+    while(a<=10)
+    {   int result=a*b;
+        printf("%d x %d=%d\n",a,b,result);
+    
+        a++;
+    }
+    
+    return 0;
+}

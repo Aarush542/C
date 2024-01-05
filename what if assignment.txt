@@ -1,0 +1,225 @@
+/*1)
+1--->10 even number*/
+#include<stdio.h>
+int main()
+{
+    int a=1;
+    while(a<=10)
+    {
+        if(a%2==0)
+        {
+            printf("%d ",a);
+        }
+    
+        a++;
+    }
+    return 0;
+}
+
+2)/*1)
+1--->100 even number*/
+#include<stdio.h>
+int main()
+{
+    int a=1;
+    while(a<=100)
+    {
+        if(a%2==0)
+        {
+            printf("%d ",a);
+        }
+    
+        a++;
+    }
+    return 0;
+}
+
+3)/*1)
+50--->100 even number*/
+#include<stdio.h>
+int main()
+{
+    int a=50;
+    while(a<=100)
+    {
+        if(a%2==0)
+        {
+            printf("%d ",a);
+        }
+    
+        a++;
+    }
+    return 0;
+}
+
+4)
+/*1)
+67--->90 even number*/
+#include<stdio.h>
+int main()
+{
+    int a=67;
+    while(a<=90)
+    {
+        if(a%2==0)
+        {
+            printf("%d ",a);
+        }
+    
+        a++;
+    }
+    return 0;
+}
+
+
+5)
+// starting point user input :
+// ending point user input :
+// between even values will print 
+
+#include<stdio.h>
+int main()
+{
+    int start,end;
+    printf("Eneter start point");
+    scanf("%d",&start);
+    printf("Enter end point");
+    scanf("%d",&end);
+    while(start<=end)
+    {
+        if(start%2==0)
+        {
+            printf("%d ",start);
+        }
+    
+        start++;
+    }
+    return 0;
+}
+
+
+// 6)
+// 100----->1 even number print 
+
+#include<stdio.h>
+int main()
+{
+    int a=100;
+    while(a>=1)
+    {
+        if(a%2==0)
+        {
+            printf("%d ",a);
+        }
+    
+        a--;
+    }
+    
+    return 0;
+}
+
+
+// 7)
+// starting point :98
+// ending point :56 
+
+// 98---->56 even number 
+#include<stdio.h>
+int main()
+{
+    int a=98;
+    while(a>=56)
+    {
+        if(a%2==0)
+        {
+            printf("%d ",a);
+        }
+    
+        a--;
+    }
+    
+    return 0;
+}
+
+
+
+8)
+// 1----->100 odd number 
+#include<stdio.h>
+int main()
+{
+    int a=100;
+    while(a>1)
+    {
+        if(a%2!=0)
+        {
+            printf("%d ",a);
+        }
+    
+        a--;
+    }
+    return 0;
+}
+
+9)// 50--->100 odd number
+#include<stdio.h>
+int main()
+{
+    int a=50;
+    while(a<=100)
+    {
+        if(a%2!=0)
+        {
+            printf("%d ",a);
+        }
+    
+        a++;
+    }
+    return 0;
+}
+
+10)user input odd
+// starting point :67
+// ending point :90 
+
+// 67----->90 odd number 
+#include<stdio.h>
+int main()
+{
+    int start,end;
+    printf("Enter start point");
+    scanf("%d",&start);
+    printf("Enter end point");
+    scanf("%d",&end);
+    while(start<end)
+    {
+        if(start%2!=0)
+        {
+            printf("%d ",start);
+        }
+    
+        start++;
+    }
+    
+    return 0;
+}
+
+11)
+// 100----->1 odd number print 
+#include<stdio.h>
+int main()
+{
+    int a=100;
+    while(a>=1)
+    {
+        if(a%2!=0)
+        {
+            printf("%d ",a);
+        }
+    
+        a--;
+    }
+    
+    return 0;
+}
+

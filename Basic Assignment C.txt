@@ -1,0 +1,40 @@
+#include<stdio.h>
+int main()
+{
+    printf("1)Five Country Name\n");
+    printf("India\n");
+    printf("United States\n");
+    printf("Germany\n");
+    printf("Australia\n");
+    printf("China\n\n");
+    
+    printf("2)Five City Name\n");
+    printf("Delhi\n");
+    printf("Kolkata\n");
+    printf("Bangalore\n");
+    printf("Chennai\n");
+    printf("Jaipur\n\n");
+    
+    printf("3)Five Food Name\n");
+    printf("Milk\n");
+    printf("Bread\n");
+    printf("Butter\n");
+    printf("Cheese\n");
+    printf("Sandwich\n\n");
+    
+    printf("4)Five Friends Name\n");
+    printf("Sanesh\n");
+    printf("Ravish\n");
+    printf("Tanish\n");
+    printf("Prince\n");
+    printf("Dinesh\n\n");
+    
+    printf("5)Five Fruit Name\n");
+    printf("Banana\n");
+    printf("Apple\n");
+    printf("Grapes\n");
+    printf("Avacado\n");
+    printf("Kiwi\n\n");
+    
+    return 0;
+}

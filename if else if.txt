@@ -1,0 +1,550 @@
+Q1) two number maximum
+#include<stdio.h>
+int main()
+{
+    int a,b;
+    printf("Enter the value of a and b");
+    scanf("%d %d",&a,&b);
+    if(a>b)
+    {
+        printf("Value a is greater than b");
+    }
+    else if(b>a)
+    {
+        printf("Value b is greater than a");
+    }
+    else
+    {
+        printf("Both values are equal");
+    }
+    return 0;
+}
+
+Q2)three number maximum
+
+#include<stdio.h>
+int main()
+{
+    int a,b,c;
+    printf("Enter the value of a, b or c");
+    scanf("%d %d %d",&a,&b,&c);
+    if(a>b && a>c)
+    {
+        printf("Value a is greater than b and c");
+    }
+    else if(b>a && b>c)
+    {
+        printf("Value b is greater than a and c");
+    }
+    else if (c>a && c>b )
+    {
+        printf("Value c is greater than a and b ");
+    }
+    else
+    {
+        printf("Both values are equal");
+    }
+    return 0;
+}
+
+Q3)five number maximum 
+#include<stdio.h>
+int main()
+{
+    int a,b,c,d,e;
+    printf("Enter the value of a, b, c, d, e");
+    scanf("%d %d %d %d %d",&a,&b,&c,&d,&e);
+    if(a>b && a>c && a>d && a>e)
+    {
+        printf("Value a is greater than b,c,d,e");
+    }
+    else if(b>a && b>c && b>d && b>e)
+    {
+        printf("Value b is greater than a,c,d,e");
+    }
+    else if (c>a && c>b && c>d && a>e )
+    {
+        printf("Value c is greater than a,b,d,e ");
+    }
+    else if (d>a && d>b && d>e && d>c )
+    {
+        printf("Value d is greater than a,b,c,e ");
+    }
+    else if (e>a && e>b && e>d && e>c )
+    {
+        printf("Value e is greater than a,b,c,d ");
+    }
+    
+    else
+    {
+        printf("All values are equal");
+    }
+    return 0;
+}
+Q4)10 number maximum 
+
+#include<stdio.h>
+int main()
+{
+    int a,b,c,d,e,f,g,h,i,j;
+    printf("Enter the value of a, b, c, d, e, f, g, h, i, j");
+    scanf("%d %d %d %d %d %d %d %d %d %d",&a,&b,&c,&d,&e,&f,&g,&h,&i,&j);
+    if(a>b && a>c && a>d && a>e && a>f && a>g && a>h && a>i && a>j)
+    {
+        printf("Value a is greater than b,c,d,e,f,g,h,i,j");
+    }
+    else if(b>a && b>c && b>d && b>e && b>f && b>g && b>h && b>i && b>j)
+    {
+        printf("Value b is greater than a,c,d,e,f,g,h,i,j");
+    }
+    else if (c>a && c>b && c>d && c>e && c>f && c>g && c>h && c>i && c>j )
+    {
+        printf("Value c is greater than a,b,d,e,f,g,h,i,j ");
+    }
+    else if (d>a && d>b && d>e && d>c && d>f && d>g && d>h && d>i && d>j )
+    {
+        printf("Value d is greater than a,b,c,e,f,g,h,i,j ");
+    }
+    else if (e>a && e>b && e>d && e>c && e>f && e>g && e>h && e>i && e>j )
+    {
+        printf("Value e is greater than a,b,c,d,f,g,h,i,j ");
+    }
+    else if (f>a && f>b && f>d && f>c && f>g && f>h && f>i && f>j )
+    {
+        printf("Value f is greater than a,b,c,d,g,h,i,j ");
+    }
+    else if (g>a && g>b && g>d && g>c && g>f && g>h && g>i && g>j )
+    {
+        printf("Value g is greater than a,b,c,d,f,h,i,j ");
+    }
+    else if (h>a && h>b && h>d && h>c && h>f && h>g && h>i && h>j )
+    {
+        printf("Value h is greater than a,b,c,d,f,g,i,j ");
+    }
+    else if (i>a && i>b && i>d && i>c && i>f && i>g && i>h && i>j )
+    {
+        printf("Value i is greater than a,b,c,d,f,g,h,j ");
+    }
+    else if (j>a && j>b && j>d && j>c && j>f && j>g && j>h && j>i )
+    {
+        printf("Value j is greater than a,b,c,d,f,g,h,i,j ");
+    }
+    
+    else
+    {
+        printf("All values are equal");
+    }
+    return 0;
+}
+Q5) /*10 :
+1 :one 
+2 :two*/ 
+#include<stdio.h>
+int main()
+{
+    int a;
+    printf("Enter a Number");
+    scanf("%d",&a);
+    if(a==1)
+    {
+        printf("one");
+    }
+    else if(a==2)
+    {
+        printf("Two");
+    }
+    else if(a==3)
+    {
+        printf("Three");
+    }
+    else if(a==4)
+    {
+        printf("Four");
+    }
+    else if(a==5)
+    {
+        printf("Five");
+    }
+    else if(a==6)
+    {
+        printf("Six");
+    }
+    else if(a==7)
+    {
+        printf("Seven");
+    }
+    else if(a==8)
+    {
+        printf("Eight");
+    }
+    else if(a==9)
+    {
+        printf("Nine");
+    }
+    else if(a==10)
+    {
+        printf("Ten");
+    }
+    else
+    {
+        printf("Invalid");
+    }
+    return 0;
+}
+
+Q6)/*week days 
+1:sunday 
+2:monday */
+#include<stdio.h>
+int main()
+{
+    int a;
+    printf("Enter a Number");
+    scanf("%d",&a);
+    if(a==1)
+    {
+        printf("Monday");
+    }
+    else if(a==2)
+    {
+        printf("Tuesday");
+    }
+    else if(a==3)
+    {
+        printf("Wednesday");
+    }
+    else if(a==4)
+    {
+        printf("Thursday");
+    }
+    else if(a==5)
+    {
+        printf("Friday");
+    }
+    else if(a==6)
+    {
+        printf("Saturday");
+    }
+    else if(a==7)
+    {
+        printf("Sunday");
+    }
+    
+    else
+    {
+        printf("Invalid");
+    }
+    return 0;
+}
+Q7)/*month 
+1 :jan 
+2 :feb 
+3 :march*/
+#include<stdio.h>
+int main()
+{
+    int a;
+    printf("Enter a Number");
+    scanf("%d",&a);
+    if(a==1)
+    {
+        printf("January");
+    }
+    else if(a==2)
+    {
+        printf("Feburary");
+    }
+    else if(a==3)
+    {
+        printf("March");
+    }
+    else if(a==4)
+    {
+        printf("April");
+    }
+    else if(a==5)
+    {
+        printf("May");
+    }
+    else if(a==6)
+    {
+        printf("June");
+    }
+    else if(a==7)
+    {
+        printf("July");
+    }
+    else if(a==8)
+    {
+        printf("August");
+    }
+    else if(a==9)
+    {
+        printf("September");
+    }
+    else if(a==10)
+    {
+        printf("October");
+    }
+    else if(a==11)
+    {
+        printf("November");
+    }
+    else if(a==12)
+    {
+        printf("December");
+    }
+    else
+    {
+        printf("Invalid");
+    }
+    return 0;
+}
+
+Q8)//a b c d 
+#include<stdio.h>
+int main()
+{
+    char a;
+    printf("Enter a Character");
+    scanf("%c",&a);
+    if(a=='a')
+    {
+    printf("Apple");
+    }
+    else if(a=='b')
+    {
+        printf("Ball");
+    }
+    else if(a=='c')
+    {
+        printf("Cat");
+    }
+    else if(a='d')
+    {
+        printf("Dog");
+    }
+    else
+    {
+        printf("Invalid");
+    }
+    return 0;
+}
+
+Q9)/*a :addition perform 
+s :substraction perform 
+m :multiplication 
+d :division 
+o:modular 
+not match*/
+
+#include<stdio.h>
+int main()
+{
+    char alpha;
+    printf("Enter a character\n a for addition\n s for subtraction\n m for multiplication \n d for division \n o for modular");
+    scanf("%c",&alpha);
+    if(alpha=='a')
+    {
+        int a,b;
+        printf("Enter two digits a and b for addition");
+        scanf("%d %d",&a,&b);
+        int c=a+b;
+        printf("The addition of two number is %d",c);
+    }
+    
+    else if(alpha=='s')
+    {
+        int a,b;
+        printf("Enter two digits a and b for subtraction");
+        scanf("%d %d",&a,&b);
+        int c=a-b;
+        printf("The subtraction of two numbers is %d",c);
+    }
+    
+    else if(alpha=='m')
+    {
+        int a,b;
+        printf("Enter two digits a and b for multiplication");
+        scanf("%d %d",&a,&b);
+        int c=a*b;
+        printf("The multiplication of two numbers is %d",c);
+    }
+    
+    else if(alpha=='d')
+    {
+        int a,b;
+        printf("Enter two digits a and b for division");
+        scanf("%d %d",&a,&b);
+        int c=a/b;
+        printf("The division of two numbers is %d",c);
+    }
+    
+    else if(alpha=='o')
+    {
+        int a,b;
+        printf("Enter two digits a and b for modular");
+        scanf("%d %d",&a,&b);
+        int c=a%b;
+        printf("The modular of two numbers is %d",c);
+        
+    }
+    
+    else
+    {
+        printf("Invalid");
+    }
+    return 0;
+}
+Q10)/*c :area of circle 
+t :area of traingle 
+s :area of square 
+u :cube 
+not match */
+#include<stdio.h>
+int main()
+{
+    char alpha;
+    printf("Enter a character\n c for area of circle\n t for area of triangle\n s for area of square\n u for area of cube\n ");
+    scanf("%c",&alpha);
+    if(alpha=='c')
+    {
+        float pi=3.14;
+        int radius;
+        printf("Enter the value of radius");
+        scanf("%d",&radius);
+        printf("The radius of circle is %d\n",radius);
+        float area= (float)(pi*radius*radius);
+        printf("The area of circle is %f",area);
+    }
+    
+    else if(alpha=='t')  //A = 1/2 × b × h.
+    {
+        float a=0.5;
+        int b,h;
+        printf("Enter the value of b and h respectively");
+        scanf("%d %d",&b,&h);
+        printf("The value of b and h are %d %d\n",b,h);
+        float area=(float)(a*b*h);
+        printf("The area of triangle is %f",area);
+    }
+    
+    else if(alpha=='s')
+    {
+        int a;
+        printf("Enter the value of area");
+        scanf("%d",&a);
+        printf("The side area of square %d \n",a);
+        int area=a*a;
+        printf("The area of square %d",area);
+    }
+    
+    else if(alpha=='u')
+    {
+        int a=6;
+        int b;
+        printf("Enter the value of area");
+        scanf("%d",&b);
+        printf("The value entered is %d \n",b);
+        int area= a*(b*b);
+        printf("The area of cube is %d",area);
+    }
+    
+    else
+    {
+        printf("Invalid");
+    }
+    return 0;
+}
+Q11)/*s :swap :without third varaible 
+w :swap :with third varaible 
+not match */
+#include<stdio.h>
+int main()
+{
+    char alpha;
+    printf("Enter character\n s:swap without third variable\n w:swap with third variable");
+    scanf("%c",&alpha);
+    if(alpha='s')
+    {   int a,b;
+        printf("Enter the value of a and b");
+        scanf("%d %d",&a,&b);
+        printf("The value of a and b are %d %d \n",a,b);
+       int e = (a=a+b,
+        b=a-b,
+        a=a-b);
+        printf("The swap values of a and b are %d %d",e);
+    }
+    
+    else if(alpha=='w')
+    {
+        int a,b,c;
+        printf("Enter the value of a and b");
+        scanf("%d %d",&a,&b);
+        printf("The entered value of a and b are %d %d",a,b);
+        int d=(c=a,a=b,b=c);
+        printf("The swap values of a and b are %d %d",d);
+    }
+    
+    else
+    {}
+    printf("Invalid")
+    return 0;
+}
+Q12)/*tempreaturer convertor 
+c : tempreature 
+f to cel :formular */
+cel to f: formula
+#include<stdio.h>
+int main()
+{
+    char alpha;
+    printf("Enter a character\n c for celsius to fahrenheit \n f for fahrenheit to celsius");
+    scanf("%c",&alpha);
+    if(alpha=='c')  //(°C) * 9/5) + 32.
+    {
+        float d=1.5;
+        int e=32;
+        int a;
+        printf("Enter the value of celsius");
+        scanf("%d",&a);
+        printf("The value of celsius is %d \n",a);
+        float value=(float)((a*d)+e);
+        printf("The value of fahrenheit is %f",value);
+        
+    }
+    else if(alpha=='f') //(°F - 32) × 5/9
+    {
+        int a;
+        int d=32;
+        float e=0.55;
+        printf("Enter the value of fahrenheit ");
+        scanf("%d",&a);
+        printf("The value of fahrenheit is %d \n",a);
+        float f= (float)((a-d)*e);
+        printf("The value of celsius is %f",f);
+        }
+        
+        else
+        {
+            printf("invalid");
+        }
+    return 0;
+}
+Q13)/*vowel and consonat*/
+#include<stdio.h>
+int main ()
+{
+    char f;
+    printf("Enter a character\n a,e,i,o,u for vowel \n Rest for consonant");
+    scanf("%c",&f);
+    if(f =='a' || f=='e' || f =='i'|| f =='o'|| f =='u')
+    {
+        printf("vowel");
+    }
+    else 
+    {
+     printf("Consonant");   
+    }
+    return 0;
+}

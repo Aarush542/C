@@ -1,0 +1,105 @@
+#include<stdio.h>
+int main()
+{
+    printf("Q1)\n");
+    int a= 34;
+    printf("\n%d\n",a);
+    
+    float b=6.7 ;
+    printf("%f\n",b);
+    
+    int c=12 ;
+    printf("%d\n",c);
+    
+    float d= 8.9;
+    printf("%f\n",d);
+    
+    char e= 'o' ;
+    printf("%c\n",e);
+    
+    char f='w' ;
+    printf("%c\n",f);
+    
+    printf("\nQ2)\n");
+    char g='r' ;
+    printf("\n%c\n",g);
+    
+    int h = 12;
+    printf("%d\n",h);
+    
+    int i =-78 ;
+    printf("%d\n",i);
+    
+    char j='y' ;
+    printf("%c\n",j);
+    
+    float k=8.9 ;
+    printf("%f\n",k);
+    
+    int l=16 ;
+    printf("%d\n",l);
+    
+    int m= -9.8;
+    printf("%d\n",m);
+   
+   printf("\nQ3)\n");
+   int n=23;
+   int o=9;
+   int result= n+o;
+   printf("%d\n",result);
+   
+   printf("\nQ4)\n");
+   int p=23;
+   int q=9;
+   int result2= p-q;
+   printf("%d\n",result2);
+   
+     printf("\nQ5)\n");
+   int r=12;
+   int s=3;
+   int result3= r*s;
+   printf("%d\n",result3);
+   
+     printf("\nQ6)\n");
+   int t=66;
+   int u=3;
+   int result4= t/u;
+   printf("%d\n",result4);
+   
+     printf("\nQ7)\n");
+   int v=56;
+   int w=78;
+   int x=34;
+   int z=12;
+   int result5= v+w+x+z;
+   printf("%d\n",result5);
+   
+    printf("\nQ7)\n");
+   int ab=12;
+   int cd=4;
+   int ef=6;
+   int gh=2;
+   int result6= ab*cd-ef/gh;
+   printf("%d\n",result6);
+   
+   printf("\nQ8)\n");
+   float ij=1.2;
+   int kl=2;
+   int mn=8;
+   int op=2;
+   double result7= ij*kl-(mn/op);
+   printf("%f",result7);
+   
+   printf("\nQ9)\n");
+   int qr=12;
+   int st=7;
+   int uv=45;
+   int wx=34;
+   int yz=3;
+   float abc= 3.4;
+   float def=8.9;
+   double result8= qr*st+uv-(wx-yz)+abc-def;
+   printf("%f",result8);
+   
+    return 0;
+}
